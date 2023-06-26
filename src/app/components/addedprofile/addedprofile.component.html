@@ -1,0 +1,63 @@
+<ng-container *ngIf="profiles.length !== 0">
+    <div class="container">
+      <div class="card-table">
+        <div class="cart-profile">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Sr.No</th>
+                  <th>Profile</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of profiles; let i = index">
+                  <td>{{ i+1 }}</td>
+                  <td>
+                    <div class="profile-details">
+                      <img src="{{ user.picture.large }}" alt="Profile Image" class="profile-image">
+                      <div class="profile-info">
+                        <h4>{{ user.name.first }}</h4>
+                        <p>Location: {{ user.location.country }}</p>
+                        <strong><p>Jobrole: {{ user.jobrole }}</p></strong>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <button (click)="removeItem(user)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">
+                    <button routerLink="/profile" class="btn btn-info text-white addMore">Add More</button>
+                  </td>
+                  <td class="button-container">
+                    <button (click)="emptycart()" class="btn btn-danger">Remove All</button>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  
+  <ng-container *ngIf="profiles.length === 0">
+    <div class="container">
+      <div class="card">
+        <h5 class="card-title">Pofiles</h5>
+      </div>
+      <div class="center">
+        <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg" alt="Working on Laptop" class="working-on-laptop-image">
+
+        <h4>No Profile added!</h4>
+        <h6>Add profiles now</h6>
+        <button routerLink="/profile" class="btn btn-info text-white addMor">Check more profiles</button>
+      </div>
+    </div>
+  </ng-container>
+  

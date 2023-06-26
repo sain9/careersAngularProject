@@ -1,0 +1,244 @@
+[
+  {
+    "name": "John Doe",
+    "location": "New York",
+    "jobRoles": ["Software Engineer", "Web Developer"],
+    "email": "johndoe@example.com",
+    "phone": "+1 123-456-7890",
+    "hobbies": ["Reading", "Gaming", "Hiking"]
+  },
+  {
+    "name": "Jane Smith",
+    "location": "San Francisco",
+    "jobRoles": ["Data Analyst", "Database Administrator"],
+    "email": "janesmith@example.com",
+    "phone": "+1 987-654-3210",
+    "hobbies": ["Photography", "Painting", "Cooking"]
+  },
+  {
+    "name": "Mike Johnson",
+    "location": "Chicago",
+    "jobRoles": ["Project Manager", "Business Analyst"],
+    "email": "mikejohnson@example.com",
+    "phone": "+1 555-123-4567",
+    "hobbies": ["Running", "Playing Guitar", "Traveling"]
+  },
+  {
+    "name": "Emily Brown",
+    "location": "Los Angeles",
+    "jobRoles": ["UI/UX Designer", "Frontend Developer"],
+    "email": "emilybrown@example.com",
+    "phone": "+1 222-333-4444",
+    "hobbies": ["Yoga", "Dancing", "Singing"]
+  },
+  {
+    "name": "David Wilson",
+    "location": "London",
+    "jobRoles": ["Marketing Manager", "Social Media Specialist"],
+    "email": "davidwilson@example.com",
+    "phone": "+44 20 1234 5678",
+    "hobbies": ["Cycling", "Cooking", "Photography"]
+  },
+  {
+    "name": "Sarah Johnson",
+    "location": "Toronto",
+    "jobRoles": ["Graphic Designer", "Illustrator"],
+    "email": "sarahjohnson@example.com",
+    "phone": "+1 416-555-6789",
+    "hobbies": ["Drawing", "Traveling", "Reading"]
+  },
+  {
+    "name": "Alex Martinez",
+    "location": "Madrid",
+    "jobRoles": ["Sales Manager", "Business Development"],
+    "email": "alexmartinez@example.com",
+    "phone": "+34 91 234 5678",
+    "hobbies": ["Football", "Hiking", "Cooking"]
+  },
+  {
+    "name": "Lily Chen",
+    "location": "Beijing",
+    "jobRoles": ["Product Manager", "Market Researcher"],
+    "email": "lilychen@example.com",
+    "phone": "+86 10 1234 5678",
+    "hobbies": ["Photography", "Painting", "Yoga"]
+  },
+  {
+    "name": "Robert Müller",
+    "location": "Berlin",
+    "jobRoles": ["Software Developer", "Data Scientist"],
+    "email": "robertmueller@example.com",
+    "phone": "+49 30 1234 5678",
+    "hobbies": ["Playing Piano", "Reading", "Traveling"]
+  },
+  {
+    "name": "Sophia Wilson",
+    "location": "Sydney",
+    "jobRoles": ["UX Researcher", "Interaction Designer"],
+    "email": "sophiawilson@example.com",
+    "phone": "+61 2 1234 5678",
+    "hobbies": ["Hiking", "Cooking", "Gardening"]
+  },
+  {
+    "name": "Daniel Kim",
+    "location": "Seoul",
+    "jobRoles": ["Data Engineer", "Machine Learning Engineer"],
+    "email": "danielkim@example.com",
+    "phone": "+82 2 1234 5678",
+    "hobbies": ["Playing Guitar", "Traveling", "Watching Movies"]
+  },
+  {
+    "name": "Laura García",
+    "location": "Mexico City",
+    "jobRoles": ["Content Writer", "Copywriter"],
+    "email": "lauragarcia@example.com",
+    "phone": "+52 55 1234 5678",
+    "hobbies": ["Reading", "Writing", "Painting"]
+  },
+  {
+    "name": "Michael Li",
+    "location": "San Francisco",
+    "jobRoles": ["Product Manager", "Business Analyst"],
+    "email": "michaelli@example.com",
+    "phone": "+1 415-555-1234",
+    "hobbies": ["Cooking", "Photography", "Gaming"]
+  },
+  {
+    "name": "Isabella Rossi",
+    "location": "Rome",
+    "jobRoles": ["UI/UX Designer", "Frontend Developer"],
+    "email": "isabellarossi@example.com",
+    "phone": "+39 06 1234 5678",
+    "hobbies": ["Drawing", "Traveling", "Playing Piano"]
+  },
+  {
+    "name": "Mohammed Ahmed",
+    "location": "Dubai",
+    "jobRoles": ["Software Engineer", "Web Developer"],
+    "email": "mohammedahmed@example.com",
+    "phone": "+971 4 123 4567",
+    "hobbies": ["Reading", "Gaming", "Football"]
+  },
+  {
+    "name": "Hannah Kim",
+    "location": "Seoul",
+    "jobRoles": ["Data Analyst", "Database Administrator"],
+    "email": "hannahkim@example.com",
+    "phone": "+82 2 9876 5432",
+    "hobbies": ["Hiking", "Photography", "Cooking"]
+  },
+  {
+    "name": "Ethan Johnson",
+    "location": "New York",
+    "jobRoles": ["Project Manager", "Business Analyst"],
+    "email": "ethanjohnson@example.com",
+    "phone": "+1 234-567-8901",
+    "hobbies": ["Gaming", "Playing Guitar", "Traveling"]
+  },
+  {
+    "name": "Sophie Dubois",
+    "location": "Paris",
+    "jobRoles": ["UX Designer", "Interaction Designer"],
+    "email": "sophiedubois@example.com",
+    "phone": "+33 1 2345 6789",
+    "hobbies": ["Painting", "Yoga", "Reading"]
+  },
+  {
+    "name": "Ryan Smith",
+    "location": "Toronto",
+    "jobRoles": ["Software Developer", "Full Stack Developer"],
+    "email": "ryansmith@example.com",
+    "phone": "+1 416-555-4321",
+    "hobbies": ["Traveling", "Cooking", "Playing Piano"]
+  },
+  {
+    "name": "Emma García",
+    "location": "Madrid",
+    "jobRoles": ["Digital Marketing Manager", "SEO Specialist"],
+    "email": "emmagarcia@example.com",
+    "phone": "+34 91 987 6543",
+    "hobbies": ["Photography", "Cooking", "Dancing"]
+  },
+  {
+    "name": "Maximilian Schmitt",
+    "location": "Berlin",
+    "jobRoles": ["Data Scientist", "Machine Learning Engineer"],
+    "email": "maximilianschmitt@example.com",
+    "phone": "+49 30 9876 5432",
+    "hobbies": ["Reading", "Playing Guitar", "Gaming"]
+  },
+  {
+    "name": "Olivia Taylor",
+    "location": "Sydney",
+    "jobRoles": ["Product Manager", "Business Development"],
+    "email": "oliviataylor@example.com",
+    "phone": "+61 2 9876 5432",
+    "hobbies": ["Hiking", "Painting", "Writing"]
+  },
+  {
+    "name": "Daniel Chen",
+    "location": "Beijing",
+    "jobRoles": ["Software Engineer", "Web Developer"],
+    "email": "danielchen@example.com",
+    "phone": "+86 10 9876 5432",
+    "hobbies": ["Photography", "Playing Guitar", "Gaming"]
+  },
+  {
+    "name": "Maria Rossi",
+    "location": "Rome",
+    "jobRoles": ["Graphic Designer", "Illustrator"],
+    "email": "mariarossi@example.com",
+    "phone": "+39 06 9876 5432",
+    "hobbies": ["Drawing", "Traveling", "Cooking"]
+  },
+  {
+    "name": "Liam Mohamed",
+    "location": "Dubai",
+    "jobRoles": ["Project Manager", "Business Analyst"],
+    "email": "liammohamed@example.com",
+    "phone": "+971 4 987 6543",
+    "hobbies": ["Reading", "Gaming", "Football"]
+  },
+  {
+    "name": "Chloe Kim",
+    "location": "Seoul",
+    "jobRoles": ["UI/UX Designer", "Frontend Developer"],
+    "email": "chloekim@example.com",
+    "phone": "+82 2 3456 7890",
+    "hobbies": ["Hiking", "Photography", "Cooking"]
+  },
+  {
+    "name": "Jackson Brown",
+    "location": "New York",
+    "jobRoles": ["Data Analyst", "Database Administrator"],
+    "email": "jacksonbrown@example.com",
+    "phone": "+1 234-567-8901",
+    "hobbies": ["Gaming", "Playing Guitar", "Traveling"]
+  },
+  {
+    "name": "Léa Martin",
+    "location": "Paris",
+    "jobRoles": ["Product Manager", "Market Researcher"],
+    "email": "leamartin@example.com",
+    "phone": "+33 1 3456 7890",
+    "hobbies": ["Painting", "Yoga", "Reading"]
+  },
+  {
+    "name": "Emma Davis",
+    "location": "Toronto",
+    "jobRoles": ["Software Developer", "Full Stack Developer"],
+    "email": "emmadavis@example.com",
+    "phone": "+1 416-555-6789",
+    "hobbies": ["Traveling", "Cooking", "Playing Piano"]
+  },
+  {
+    "name": "Pablo Jiménez",
+    "location": "Madrid",
+    "jobRoles": ["Digital Marketing Manager", "Content Writer"],
+    "email": "pablojimenez@example.com",
+    "phone": "+34 9144 0250",
+    "hobbies": ["Painting", "Yoga", "Reading"]
+   }
+   
+ ]
+

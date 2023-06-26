@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+      <!-- Email Filtering -->
+      <ng-container *ngFor="let user of filterCategory | filter:searchKey:'jobrole'">
+        <div class="card col-md-3">
+          <img class="col-md-3" src="{{ user.picture.large }}" alt="">
+          <h2>{{ user.name.first }} {{ user.name.last }}</h2>
+          <p>Location: {{ user.location.city }}, {{ user.location.country }}</p>
+          <p>Phone: {{ user.phone }}</p>
+          <p>Email: {{ user.email }}</p>
+          <strong> <p>jobrole: {{ user.jobrole }}</p></strong>
+          <button class="btn btn-info text-white" (click)="addtoProfile(user)">Add Profile</button>
+        </div>
+      </ng-container>
+  
+      <!-- Location Filtering -->
+      <ng-container *ngFor="let user of filterCategory | filter:searchKey:'location.country'">
+        <div class="card col-md-3">
+          <img class="col-md-3" src="{{ user.picture.large }}" alt="">
+          <h2>{{ user.name.first }} {{ user.name.last }}</h2>
+          <p>Location: {{ user.location.city }}, {{ user.location.country }}</p>
+          <p>Phone: {{ user.phone }}</p>
+          <p>Email: {{ user.email }}</p>
+          <strong> <p>jobrole: {{ user.jobrole }}</p></strong>
+          <button class="btn btn-info text-white" (click)="addtoProfile(user)">Add Profile</button>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  
